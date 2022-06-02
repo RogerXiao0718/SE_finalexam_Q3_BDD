@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href="/static/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Login Page</h1>
+        <img src="/static/images/user_icon.png" alt="user-icon" width="120px" height="120px" />
+    </header>
+    <main class="main-container">
+        <form id="login-form" class="login-form" method="POST" action="/login">
+            <div class="login-input-row">
+                <label for="username" class="login-form-lbl">UserName </label>
+                <input id="username-input" class="login-input" type="text" name="username">
+            </div>
+            <div class="login-input-row">
+                <label for="password" class="login-form-lbl">Password </label>
+                <input id="password-input" class="login-input" type="password" name="password">
+            </div>
+            <button id="login-btn" class="login-btn" type="submit">Login</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
